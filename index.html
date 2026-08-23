@@ -81,6 +81,10 @@
   /* services */
   .cols{display:grid;grid-template-columns:repeat(3,1fr);gap:36px;}
   @media(max-width:820px){.cols{grid-template-columns:1fr;}}
+  .col .domain{
+    font-size:10px;letter-spacing:.3em;text-transform:uppercase;
+    color:var(--steel);margin-bottom:8px;
+  }
   .col h3{font-size:15px;margin-bottom:10px;letter-spacing:.04em;}
   .col p{font-size:13.5px;color:var(--muted);}
   .col .rule{width:34px;height:3px;background:var(--steel);margin-bottom:16px;}
@@ -160,18 +164,21 @@
     <div class="cols">
       <div class="col">
         <div class="rule"></div>
-        <h3>Application Development</h3>
-        <p>Web apps and tools designed around real people and real workflows — privacy-first, browser-based, and built to be genuinely useful from day one.</p>
+        <div class="domain">Information</div>
+        <h3>Application Development &amp; Analytics</h3>
+        <p>Web apps and analytics designed around real people and real workflows.</p>
       </div>
       <div class="col">
         <div class="rule"></div>
-        <h3>Data &amp; Analytics</h3>
-        <p>Data rescue, synthesis, and analysis. We take messy, at-risk, or overwhelming data and turn it into answers decision-makers can actually use.</p>
-      </div>
-      <div class="col">
-        <div class="rule"></div>
+        <div class="domain">Science</div>
         <h3>Scientific &amp; Environmental Consulting</h3>
-        <p>Research design, ecological data management, and reporting — grounded in peer-reviewed science and decades of field experience.</p>
+        <p>Research design, ecological data management, and reporting.</p>
+      </div>
+      <div class="col">
+        <div class="rule"></div>
+        <div class="domain">Art</div>
+        <h3>Studio Practice &amp; Design</h3>
+        <p>Original paintings and photography, prints and editions.</p>
       </div>
     </div>
   </div>
