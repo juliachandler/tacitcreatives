@@ -49,11 +49,11 @@
   nav a:hover{color:var(--navy);}
 
   /* hero */
-  .hero{background:var(--dark);color:var(--rev);padding:110px 0 100px;}
-  .hero .logo-big svg{display:block;height:clamp(52px,9vw,96px);width:auto;margin-bottom:40px;}
+  .hero{background:var(--dark);color:var(--rev);padding:68px 0 62px;}
+  .hero .logo-big svg{display:block;height:clamp(52px,9vw,96px);width:auto;margin-bottom:28px;}
   .hero .acronym{
     font-size:12.5px;letter-spacing:.26em;text-transform:uppercase;color:#8B94A7;
-    margin-bottom:30px;line-height:2;
+    margin-bottom:22px;line-height:2;
   }
   .hero .acronym b{color:var(--tint);font-weight:700;}
   .hero h1{
@@ -110,6 +110,7 @@
   .card a.go{
     color:var(--navy);text-decoration:none;font-size:12.5px;letter-spacing:.08em;font-weight:700;
   }
+  .card .golinks{display:flex;flex-wrap:wrap;gap:22px;}
   .card a.go span{color:var(--steel);}
   .card a.go:hover{color:var(--steel);}
 
@@ -188,29 +189,30 @@
   <div class="wrap">
     <div class="kicker">Work</div>
     <h2>Built under TACIT</h2>
-    <p class="intro">Five ventures, one idea: give people a calm, clear picture of something complicated.</p>
     <div class="cards">
       <div class="card">
         <span class="status">Live · Free tier</span>
         <h3>CustodyGuard<span class="dot">.io</span></h3>
-        <p>Private, browser-based case organization for parents navigating custody. Document indexing, incident logging, communication pattern detection, and court-ready PDF reports.</p>
-        <p class="quote">"Stay organized when it matters most."</p>
+        <p>Private case organization for parents navigating custody. Document indexing, incident logging, and court-ready PDF reports.</p>
+        <p class="quote">Stay organized when it matters most.</p>
         <a class="go" href="https://custodyguard.io" target="_blank" rel="noopener">custodyguard.io <span>→</span></a>
       </div>
       <div class="card">
         <span class="status">Private beta</span>
         <h3>Coppermap<span class="dot">.com</span></h3>
         <p>A shared calendar to map your day: a calm Today screen showing the time and what's next, plus a family planner anyone can update from any device — built for loved ones near and far.</p>
-        <p class="quote">"Map the day."</p>
+        <p class="quote">Map the day.</p>
         <a class="go" href="https://coppermap.com" target="_blank" rel="noopener">coppermap.com <span>→</span></a>
       </div>
       <div class="card">
         <span class="status">Research · Consulting</span>
         <h3>Burning Questions<span class="dot"> / DB2020</span> &amp; The Berry Project</h3>
         <p>Rescuing at-risk fire-effects data from British Columbia's forests — and predicting grizzly bear food by mapping huckleberry habitat across the Columbia Basin. Field science turned into answers land managers can use.</p>
-        <p class="quote">Environmental data science, in the field and in the archive.</p>
-        <a class="go" href="https://db2020.ca" target="_blank" rel="noopener">db2020.ca <span>→</span></a>&nbsp;&nbsp;
-        <a class="go" href="http://juliachandler.ca/berry-project/index.html" target="_blank" rel="noopener">the berry project <span>→</span></a>
+        <p class="quote">Environmental data science.</p>
+        <div class="golinks">
+          <a class="go" href="https://db2020.ca" target="_blank" rel="noopener">db2020.ca <span>→</span></a>
+          <a class="go" href="http://juliachandler.ca/berry-project/index.html" target="_blank" rel="noopener">the berry project <span>→</span></a>
+        </div>
       </div>
       <div class="card">
         <span class="status">Coming soon</span>
